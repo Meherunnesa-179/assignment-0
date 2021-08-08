@@ -1,18 +1,18 @@
 
 //solution to problem-1:
 
-// function seerToMon(seer){
-//     if(seer<0){
-//         return 'Enter positive amount,please.'
-//     }
-//     const mon = 0.025 * seer;
-//     return mon;
-// }
-// console.log(seerToMon(-1000));  
+function seerToMon(seer){
+    if(seer<0){
+        return 'Enter positive amount,please.'
+    }
+    const mon = 0.025 * seer;
+    return mon;
+}
+console.log(seerToMon(-1000));  
 
 // solution to problem-2:
 
-/*function totalSales(shirtQuantity,pantQuantity,shoesQuantity){
+function totalSales(shirtQuantity,pantQuantity,shoesQuantity){
     if(shirtQuantity < 0 || pantQuantity < 0 || shoesQuantity < 0){
         return 'Error: enter positive quantity';
     }
@@ -29,7 +29,7 @@
     return totalProductSales;
 
 }
-console.log(totalSales(8,8,8)); */ 
+console.log(totalSales(8,8,8)); 
 
 // // solution to problem-3:
 
@@ -70,7 +70,7 @@ console.log(totalSales(8,8,8)); */
 //  // solution to problem-4:
 
   function perfectFriend(friendsName){
-      
+
       for (let i = 0; i < friendsName.length;i++){
           let element = friendsName[i];
           if(element.length == 5){
